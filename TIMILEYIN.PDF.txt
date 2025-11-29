@@ -1,0 +1,78 @@
+﻿My portfolio[a]
+            Site structure(Navigation)
+           Create a navigation bar that appears at the top with the following features:
+1. index.html – This will be the Home Page, providing an introduction and overview of the site.
+2. about.html – This page will serve as the About / Resume section, containing personal background information, education, and skills.
+3. project.html – This will be the My Work page, showcasing completed projects, designs, or coding samples.
+4. contact.html – This page will be the Contact section, allowing visitors to get in touch via email, phone, or contact form.
+
+HOME PAGE (index.html)
+         Requirements:        
+   1. Page Title: Timileyin
+Background Color: Use a soft, comfortable color that makes content stand out, e.g., #f0f8ff (light alice blue).
+Layout:
+      1. Left Side: An image section displaying my profile picture or relevant visual (profile.jpg).
+      2. Right Side: A brief introduction about yourself.
+
+         2. Bottom Section: Include a short history about yourself:
+“My name is Alaafin Timileyin, and I was born in Nigeria. I’ve always had a deep interest in web designing and enjoy coding in programming languages such as Python, HTML, and CSS.”
+         3. 
+Additional Features:
+            1. Include a navigation bar at the top with links to Home, About/Resume, Projects, and Contact.
+
+            2. Optional: Add a “View My Projects” button linking to the Projects page.                                   
+ABOUT/RESUME PAGE (about.html)
+        Left Column (Education):
+               1. H2: Education
+
+               2. H3: Festac Senior Grammar School
+
+               3. P: Years Attended: 3 years
+
+               4. P: Achievements: Certification from the school    
+ Right Column (Skills):
+                  5. H2: Skills
+                  6. H3: Web Development
+                  1. UL: HTML, CSS, Wireframe
+                  7. H3: Programming
+                  1. UL: Python
+                  8. H3: Design
+                  1. UL: Canva
+Projects Page (projects.html) 
+  Requirements:
+Create a Projects Page to showcase your work with the following specifications:
+Page Title: My Work
+Layout: List of projects, each with a title and image.
+Projects Section:
+                  1. H3: HTML and CSS: 
+Image: html_css_project.jpg (a screenshot or image of you coding)
+                  2. H3: Web Design:Image: web_design_project.jpg (a screenshot or image of you designing a website)
+                  3. H3: Canva:Image: canva_project.jpg (a screenshot or image of you designing a portfolio)
+CONTACT PAGE(Contact.html)
+            Requirements:
+       Page Title"Contact"
+Heading:H1:"Get in touch"
+Contact form
+Contact Form:
+                     * Name: <input type="text" placeholder="Your Name">
+                     * Email: <input type="text" placeholder="Your Email">
+                     * Message: <textarea placeholder="Your Message"></textarea>
+Contact info below form:
+P:”Emaill”
+   [timileyinalaafin1@gmail.com]
+P:”Github:[timileyinalaafin1-gif]
+
+
+Footer Section
+<p>&copy; 2025 . All rights reserved.</p>
+
+
+Final Prompt:
+The site should have four main pages — Home, About/Resume, Projects, and Contact — all accessible from a navigation bar.
+it should fit in mobile and computer and ipad
+
+
+
+
+
+
