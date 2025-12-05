@@ -10,8 +10,10 @@
     <header class="site-header">
       <div class="container header-inner">
         <h1 class="site-title">Contact</h1>
-        <button class="nav-toggle">☰ Menu</button>
-        <nav class="nav">
+        <!-- Single clean toggle button -->
+        <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false">☰ Menu</button>
+        <!-- Nav with ID and role -->
+        <nav id="main-nav" class="nav" role="navigation">
           <a href="index.html">Home</a>
           <a href="about.html">Resume</a>
           <a href="projects.html">Projects</a>
