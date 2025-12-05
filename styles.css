@@ -31,13 +31,13 @@ main {
 .site-header {
   background: linear-gradient(45deg, #6A82FB, #FCB9FF);
   padding: 0.1em;
-  position: relative; /* added for dropdown positioning */
+  position: relative; /* positioning context for dropdown */
 }
 .header-inner { 
   display: flex; 
   align-items: center; 
   gap: 1rem; 
-  position: relative; /* added for dropdown positioning */
+  position: relative; /* positioning context for dropdown */
 }
 .site-title { font-size: 1.25rem; }
 .nav { display: flex; gap: 1rem; margin-left: auto; align-items: center; }
@@ -255,13 +255,16 @@ footer {
   .nav.show { display: flex; }
 
   .nav a {
-    text-decoration: none;
-    color: #0a0a0a;
+    display: block;            /* stack links vertically */
+    text-decoration: none;     /* cleaner look */
+    color: #0a0a0a;            /* visible text color */
     font-weight: 600;
     padding: 0.6rem 0.75rem;
     border-radius: 8px;
   }
-  .nav a:hover { background: rgba(106,130,251,0.12); }
+  .nav a:hover {
+    background: rgba(106,130,251,0.12);
+  }
 
   .nav-toggle {
     display: inline-block;
