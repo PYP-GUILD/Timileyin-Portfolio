@@ -1,14 +1,14 @@
-// Small JS for nav toggle and contact mailto fallback
+// JS for nav toggle and contact form mailto fallback
 document.addEventListener('DOMContentLoaded', function(){
   var toggle = document.querySelector('.nav-toggle');
-  var nav = document.querySelector('.nav');
+  var nav = document.getElementById('main-nav'); // target by ID for consistency
 
   // Mobile nav toggle
   if(toggle && nav){
     toggle.addEventListener('click', function(){
       var expanded = this.getAttribute('aria-expanded') === 'true';
       this.setAttribute('aria-expanded', String(!expanded));
-      nav.classList.toggle('show', !expanded); // use CSS class instead of inline style
+      nav.classList.toggle('show', !expanded); // toggle CSS class
     });
   }
 
